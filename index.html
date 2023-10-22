@@ -23,6 +23,10 @@
         .nav li a {
             font-weight: bold;
         }
+
+        .card .article-title {
+            font-size: 16px;
+        }
     </style>
 
     <script>
@@ -64,7 +68,7 @@
                 <li><a href="#part-artassets" class="nav-link px-3 link-dark">游戏资源</a></li>
                 <li><a href="#part-money" class="nav-link px-3 link-dark">游戏变现</a></li>
                 <li><a href="#part-arttools" class="nav-link px-3 link-dark">美术工具</a></li>
-                <li><a href="#part-avtools" class="nav-link px-3 link-dark">音视频剪辑</a></li>
+                <li><a href="#part-avtools" class="nav-link px-3 link-dark">音视频</a></li>
                 <li><a href="#part-ai" class="nav-link px-3 link-dark">人工智能</a></li>
                 <li><a href="#part-doc" class="nav-link px-3 link-dark">文章</a></li>
                 <li><a href="./images/wxcode.jpg" class="nav-link px-3 link-dark"><span
@@ -268,12 +272,24 @@
         </div>
     </div>
 
-    <!-- 【音视频剪辑】 -->
+    <!-- 【音视频】 -->
     <div class="m-5"></div>
 
     <div class="container p-0" id="part-avtools">
-        <h3>【音视频工具】</h3>
+        <h3>【音视频】</h3>
         <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+
+            <!-- https://www.lofi.cafe/ -->
+
+            <div class="feature col">
+                <a href="https://www.lofi.cafe/" target="_blank" class="nav-link link-dark h-100">
+                    <div class="card p-3 h-100 border-light shadow">
+                        <div>Lofi</div>
+                        <p>适合工作，码代码，读书时聆听的音乐，只需要打开网站即可，无须安装任何东西。</p>
+                    </div>
+                </a>
+            </div>
+
 
             <div class="feature col">
                 <a href="https://online-video-cutter.com/cn/" target="_blank" class="nav-link link-dark h-100">
@@ -354,18 +370,17 @@
 
     <div class="container p-0" id="part-doc">
         <h3>【文章】</h3>
-        <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+        <div class="row g-4 py-3 row-cols-1 row-cols-lg-3 ">
 
-            <div class="feature col">
+            <div class="feature col ">
                 <a href="/" class="nav-link link-dark h-100">
-                    <div class="card p-3 h-100 border-light shadow">
-                        <div></div>
-                        <p>内容整理中...</p>
+                    <div class="card px-3 h-100 border-light shadow ">
+                        <p class="article-title mt-3">
+                            内容还在收集中...
+                        </p>
                     </div>
                 </a>
             </div>
-
-
 
         </div>
     </div>
